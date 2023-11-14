@@ -12,5 +12,5 @@ find_package(Threads)
 target_link_libraries(server Threads::Threads)
 target_link_libraries(client Threads::Threads)
 
-target_include_directories(server PUBLIC includes/)
-target_include_directories(client PUBLIC includes/)
+target_include_directories(server PUBLIC include/)
+target_include_directories(client PUBLIC include/)
