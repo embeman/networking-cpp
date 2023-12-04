@@ -14,3 +14,7 @@ target_link_libraries(client Threads::Threads)
 
 target_include_directories(server PUBLIC include/)
 target_include_directories(client PUBLIC include/)
+
+install(TARGETS server DESTINATION /usr/bin)
+install(TARGETS client DESTINATION /usr/bin)
+
